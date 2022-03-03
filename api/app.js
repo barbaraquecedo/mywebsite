@@ -1,7 +1,8 @@
 const express = require('express');
 const logger = require('morgan');
 
-
+/** configurations */
+require('./config/db.config');
 
 const app = express();
 
