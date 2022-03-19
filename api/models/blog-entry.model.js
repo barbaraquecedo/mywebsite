@@ -33,12 +33,12 @@ const blogEntrySchema = new Schema({
     tags: {
         type: [String],
         default: []
-    }
+    },
 
-   /* owner: {
+   owner: {
         type: Schema.Types.ObjectId,
         ref: 'User'
-    }*/
+    }
 
 
 }, {timestamps:true});

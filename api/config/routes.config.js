@@ -4,11 +4,17 @@ const blogEntries = require('../controllers/blog-entries.controller');
 
 router.get('/blog-entries', blogEntries.list)
 router.post('/blog-entries', blogEntries.create)
+router.get('/blog-entries/:id', blogEntries.detail)
+router.delete('blog-entries/:id', blogEntries.delete)
+
+router.post('/register', auth.register)
+router.get('/login', auth.login)
+router.post('/logout', auth.logout)
 
 /*/
 
 
-router.get('/blog-entries/:id', blogEntries.detail)
+
 
 
 router.get("/cv", cv.detail);
