@@ -2,10 +2,10 @@ const express = require('express');
 const router = express.Router();
 const blogEntries = require('../controllers/blog-entries.controller');
 
-router.get('/blog-entries', blogEntries.list)
-router.post('/blog-entries', blogEntries.create)
+router.get('/blog-entries', secure.isAuthenticated, blogEntries.list)
+router.post('/blog-entries', secure.isAuthenticated, blogEntries.create)
 router.get('/blog-entries/:id', blogEntries.detail)
-router.delete('blog-entries/:id', blogEntries.delete)
+router.delete('blog-entries/:id', secure.isAuthenticated, blogEntries.delete)
 
 router.post('/register', auth.register)
 router.get('/login', auth.login)
