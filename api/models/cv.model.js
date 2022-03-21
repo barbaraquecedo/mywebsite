@@ -34,18 +34,20 @@ const cvSchema = new Schema({
 
     experience: {
         type: String,
-        
+        required: 'Experience is required'
     },
 
     education: {
         type: String,
+        required: 'Education is required'
     },
 
     skills: {
         type: String,
+        required: 'Skills are required'
     }
 
 }, {timestamps: true}); 
 
 const Cv = mongoose.model('CV', cvSchema);
-module.exports = CV;
+module.exports = Cv;

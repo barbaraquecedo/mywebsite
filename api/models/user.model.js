@@ -4,7 +4,8 @@ const Schema = mongoose.Schema;
 const EMAIL_REGEX = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 const PASSWORD_REGEX = /.{8,}/;;
 const ADMIN_EMAIL = process.env.ADMIN_EMAIL;
-
+const bcrypt = require('bcryptjs');
+const SALT_WORK_FACTOR = 10;
 
 const userSchema = new Schema({
 
@@ -34,7 +35,21 @@ const userSchema = new Schema({
         enum: ['admin'],
         default: 'admin'
     }
-}, { timestamps: true });
+}, { 
+    timestamps: true,
+    toJSON: {
+        transform: (doc, user) => {
+            user.id = user._id;
+
+            delete user._id;
+            delete user.__v;
+            delete user.password;
+
+            return user;
+        }
+    }
+
+});
 
 userSchema.pre('save', function (next) {
 
