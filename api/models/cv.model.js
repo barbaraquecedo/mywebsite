@@ -45,6 +45,11 @@ const cvSchema = new Schema({
     skills: {
         type: String,
         required: 'Skills are required'
+    },
+
+    owner: {
+        type: Schema.Types.ObjectId,
+        ref: 'User'
     }
 
 }, {timestamps: true}); 

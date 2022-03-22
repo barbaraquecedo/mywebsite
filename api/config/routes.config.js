@@ -17,6 +17,7 @@ router.post('/logout', auth.logout)
 
 router.post("/cv", secure.isAuthenticated , cv.create);
 router.put("/cv", secure.isAuthenticated, cv.edit);
+router.get("/cv", secure.isAuthenticated, cv.detail);
 
 /*/
 
