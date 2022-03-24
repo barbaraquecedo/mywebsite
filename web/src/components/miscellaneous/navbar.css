@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Bungee+Inline&display=swap');
+
+.navbar {
+    font-family: 'Abhaya Libre', serif !important;
+    font-size: 18px;
+    stroke-width: 3px, #071030;
+    background: transparent !important;
+}
+
+.btn-primary {
+    font-family: 'Bungee Inline', cursive !important;
+    background-color: #FFE5A4 !important;
+    color: #071030 !important;
+    stroke-width: 0.5px;
+    border-color: #071030;
+}
+
+.navbar-brand {
+    font-family: 'Bungee Inline', cursive !important;
+    color: #071030 !important;
+}
+
+

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Bungee+Inline&display=swap');
+
+
+.btn-primary {
+    font-family: 'Bungee Inline', cursive !important;
+    background-color: #FFE5A4 !important;
+    color: #071030 !important;
+    stroke-width: 0.5px;
+    border-color: #071030;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height:1000px;
+    font-family: 'Abhaya Libre', serif !important;
+   }
+
+body:before {
+	content:"";
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:-1; 
+	background:#FFBCBC;
+	background: radial-gradient(circle at center, #FFBCBC, #E5E5E5) ;
+}

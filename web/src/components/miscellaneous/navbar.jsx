@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from 'react-router-dom';
+import './navbar.css';
 
 const Navbar = () => {
     return (
@@ -18,8 +19,8 @@ const Navbar = () => {
                             <NavLink className="nav-link" to="/blog">Blog</NavLink>
                         </li>
                     </ul>
-                    <span className="navbar-text">
-                        Navbar text with an inline element
+                    <span className="btn btn-primary">
+                        Get in touch
                     </span>
                 </div>
             </div>
