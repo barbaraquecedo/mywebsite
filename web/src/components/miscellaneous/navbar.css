@@ -2,9 +2,10 @@
 
 .navbar {
     font-family: 'Abhaya Libre', serif !important;
-    font-size: 18px;
-    stroke-width: 3px, #071030;
+    font-size: 22px;
     background: transparent !important;
+    border-color: #071030 !important;
+    border-width: 3px;
 }
 
 .btn-primary {
@@ -13,11 +14,17 @@
     color: #071030 !important;
     stroke-width: 0.5px;
     border-color: #071030;
+    font-size: 16px !important;
 }
 
 .navbar-brand {
     font-family: 'Bungee Inline', cursive !important;
     color: #071030 !important;
+    margin-right: 68px;
+}
+
+.nav-item {
+    margin-right: 30px;
 }
 
 

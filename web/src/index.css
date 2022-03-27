@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Bungee+Inline&display=swap');
 
 
-.btn-primary {
-    font-family: 'Bungee Inline', cursive !important;
-    background-color: #FFE5A4 !important;
-    color: #071030 !important;
-    stroke-width: 0.5px;
-    border-color: #071030;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -26,4 +18,38 @@ body:before {
 	z-index:-1; 
 	background:#FFBCBC;
 	background: radial-gradient(circle at center, #FFBCBC, #E5E5E5) ;
+}
+
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+    .whatsapp-icon {
+        margin-top: 10px;
+    }
+
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
 }

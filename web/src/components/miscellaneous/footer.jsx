@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className='mt-auto'>
             <div className="container">
-                <p> This is react sticky footer!</p>
+                <p> Proudly developed by me :) </p>
             </div>
         </footer>
     );

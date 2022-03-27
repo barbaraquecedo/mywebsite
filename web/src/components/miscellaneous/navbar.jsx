@@ -4,7 +4,7 @@ import './navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light border border-bottom">
             <div className="container">
                 <NavLink className="navbar-brand" to="/">Bárbara Quecedo</NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
