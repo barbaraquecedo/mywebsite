@@ -34,7 +34,7 @@ const cvSchema = new Schema({
 
     experience: {
         type: String,
-        required: 'Experience is required'
+        required: 'Experience is required',
     },
 
     education: {
