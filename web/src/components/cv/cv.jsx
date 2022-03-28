@@ -7,10 +7,15 @@ function Cv({ name, surname, description, phone, email, experience, education, s
     return (
         <div className="cv-container">
             <div className="personal-info">
-                <h2 className='description'> Descripción </h2>
-                <i className="fa-solid fa-toggle-on"></i>
+                <h2 className='description text-center'>
+                    <br/>
+                innovative and entrepreneurial spirit
+                <br/>
+                growth | product 
+                </h2>
             </div>
             <div>
+            <i class="icon fa fa-briefcase" aria-hidden="true"></i>
                 <div className='experience-grid-1'>
                     <CvDetailBox
                         id='1'

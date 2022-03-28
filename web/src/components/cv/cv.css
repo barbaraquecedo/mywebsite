@@ -20,8 +20,8 @@ h5, p, li {
     padding: 1.5rem;
 }
 
-.fa-solid {
-    position: absolute;
+.icon {
+    position: relative;
     top: 3rem;
     width: 4rem;
     height: 4rem;
@@ -35,4 +35,6 @@ h5, p, li {
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
