@@ -10,4 +10,29 @@ h5, p, li {
     gap: 1rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-} 
+}
+
+.experience-grid-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    width: 57%;
+    padding: 1.5rem;
+}
+
+.fa-solid {
+    position: absolute;
+    top: 3rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid rgb(222, 217, 204);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(38 26 25 / 4%) 0px 1.51px 5.3px, rgb(38 26 25 / 5%) 0px 3.03px 4.54px;
+    color: rgb(162, 158, 174);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
