@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-h5, p, li {
+h5, p, li, i {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -14,11 +14,13 @@ h5, p, li {
 
 .experience-grid-1 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 40% 20% 40%;
     margin: auto;
-    width: 57%;
+    width: 77%;
     padding: 1.5rem;
 }
+
+
 
 .icon {
     position: relative;

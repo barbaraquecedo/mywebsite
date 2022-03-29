@@ -19,9 +19,7 @@ const Navbar = () => {
                             <NavLink className="nav-link" to="/blog">Blog</NavLink>
                         </li>
                     </ul>
-                    <span className="btn btn-primary">
-                        Get in touch
-                    </span>
+                    <a className="btn btn-primary" href="mailto:barbaraquecedo@gmail.com?body=My custom mail body">Get in touch</a>
                 </div>
             </div>
         </nav>
