@@ -3,10 +3,15 @@
 .navbar {
     font-family: 'Abhaya Libre', serif !important;
     font-size: 22px;
-    background: transparent !important;
+    background: white !important;
     border-color: #071030 !important;
     border-width: 3px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
+
 
 .btn-primary {
     font-family: 'Bungee Inline', cursive !important;

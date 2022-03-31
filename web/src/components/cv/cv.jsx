@@ -30,10 +30,10 @@ function Cv({}) {
                                 name: 'Electronic IDentification (eID)',
                                 logo: 'https://startupxplore.com/uploads/228d131547cbf47b0147d147507f004d-large.png'
                             }}
-                            roleDescription='
-                Electronic IDentification is the only provider offering an end-to-end solution with a Qualified Electronic Signature based on a remote and asynchronous video identification, that allows a Digital Onboarding all over Europe in less than a minute.
-                #Leading Demand Generation campaigns all over Europe.'
-                        />
+                            roleDescription={
+                <p>Electronic IDentification is the only provider offering an end-to-end solution with a Qualified Electronic Signature based on a remote and asynchronous video identification, that allows a Digital Onboarding all over Europe in less than a minute.
+                Leading Demand Generation campaigns all over Europe.</p>}
+                />
                     </div>
                     <div>
                         <i class="icon fa fa-briefcase" aria-hidden="true"></i>
