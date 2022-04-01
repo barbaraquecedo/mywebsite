@@ -12,6 +12,15 @@ h5, p, li, i {
     padding-bottom: 1.5rem;
 }
 
+.current-experience {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    margin: auto;
+    width: 77%;
+    padding: 1.5rem;
+    background: violet;
+}
+
 .experience-grid-1 {
     display: grid;
     grid-template-columns: 40% 20% 40%;
@@ -31,6 +40,25 @@ h5, p, li, i {
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(38 26 25 / 4%) 0px 1.51px 5.3px, rgb(38 26 25 / 5%) 0px 3.03px 4.54px;
     color: rgb(162, 158, 174);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-1 {
+    position: relative;
+    top: 3rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid rgb(222, 217, 204);
+    background-color: rgb(162, 158, 174);
+    box-shadow: rgb(38 26 25 / 4%) 0px 1.51px 5.3px, rgb(38 26 25 / 5%) 0px 3.03px 4.54px;
+    color: rgb(255, 255, 255);
     display: flex;
     -webkit-box-align: center;
     align-items: center;
