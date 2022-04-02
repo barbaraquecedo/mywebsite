@@ -9,19 +9,26 @@ function Cv({}) {
             <div className="personal-info">
                 <h2 className='description text-center'>
                     <br />
-                    innovative and entrepreneurial spirit
+                    <span style={{color: '#fffd99'}}>innovative</span> and entrepreneurial <span style={{color: '#fffd99'}}>spirit</span>
                     <br />
-                    growth | product
+                    <br />
+                    <span id="subheader">growth | product</span>
                     <br/>
                     <br/>
+                    <div className='d-flex-sm-around '>
+                    <a className="btn btn-linkedin btn-outline-primary me-5" target="_blank" href='https://www.linkedin.com/in/barbaraquecedo/'> Let's connect on LinkedIn :)</a>
+                    <a className="btn btn-cv btn-outline-primary ms-5" type="submit" onclick="window.open('file.doc')">Download CV in PDF</a>
+                    </div>
                     <br/>
                 </h2>
             </div>
             <>
-
+                <div class='background-line'>
+                </div>
                 <div className='experience-grid-1'>
                     <div>
                         <CvDetailBox
+                            current
                             id='12'
                             title='Growth Product Marketing Manager'
                             startDate="Nov '21"
@@ -32,7 +39,7 @@ function Cv({}) {
                             }}
                             roleDescription={
                 <p>Electronic IDentification is the only provider offering an end-to-end solution with a Qualified Electronic Signature based on a remote and asynchronous video identification, that allows a Digital Onboarding all over Europe in less than a minute.
-                Leading Demand Generation campaigns all over Europe.</p>}
+                <br/>Leading Demand Generation campaigns all over Europe.</p>}
                 />
                     </div>
                     <div>

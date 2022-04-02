@@ -4,6 +4,34 @@ h5, p, li, i {
     font-family: 'Roboto', sans-serif;
 }
 
+.description {
+    margin: 0 auto;
+}
+
+.background-line {
+    width: 50%;
+    height: 3119px;
+    border-right: solid 1px #071030;
+    z-index: 0;
+    position: absolute;
+    margin-top: 310px;
+}
+#subheader {
+    font-family: 'Bungee Inline';
+    font-size: 23.5px;
+    margin-left: 12px;
+}
+
+.btn-linkedin {
+    margin-left: -200px !important;
+   
+}
+
+.btn-cv {
+    margin-right: -150px !important;
+ 
+}
+
 .cv-container {
     display: flex;
     flex-direction: column;
@@ -12,14 +40,25 @@ h5, p, li, i {
     padding-bottom: 1.5rem;
 }
 
-.current-experience {
+.current {
     display: grid;
     grid-template-columns: 40% 20% 40%;
     margin: auto;
-    width: 77%;
-    padding: 1.5rem;
-    background: violet;
+    background: #c9f3db;
 }
+
+.current .accordion-item, .current .accordion, .current button {
+    background: #c9f3db;
+    outline: none;
+    z-index: 0;
+}
+
+.current button:focus {
+    outline: none !important;
+    background: #c9f3db;
+    z-index: 0;
+}
+
 
 .experience-grid-1 {
     display: grid;
@@ -36,10 +75,10 @@ h5, p, li, i {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
-    border: 1px solid rgb(222, 217, 204);
+    border: 1px solid #fffd99;
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(38 26 25 / 4%) 0px 1.51px 5.3px, rgb(38 26 25 / 5%) 0px 3.03px 4.54px;
-    color: rgb(162, 158, 174);
+    color: #ffcb86;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -55,8 +94,8 @@ h5, p, li, i {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
-    border: 1px solid rgb(222, 217, 204);
-    background-color: rgb(162, 158, 174);
+    border: 1px solid #fffd99;
+    background-color: #ffcb86;
     box-shadow: rgb(38 26 25 / 4%) 0px 1.51px 5.3px, rgb(38 26 25 / 5%) 0px 3.03px 4.54px;
     color: rgb(255, 255, 255);
     display: flex;

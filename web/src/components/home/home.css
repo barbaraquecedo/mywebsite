@@ -16,16 +16,17 @@ h2 {
     height: 416px;
     border: solid 3px #071030;
     border-top: solid 2px #071030;
-    border-left: none;
-    background: transparent !important;
+    background: white;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 .podcast-module {
     border: solid 3px #071030;
     border-top: solid 2px #071030;
-    border-left: none;
-    border-right: none;
-    background: transparent !important;
+    border-radius: 5px;
+    margin: 10px;
+    background: white;
     width: 789px;
     height: 316px;
 }
@@ -37,12 +38,19 @@ h2 {
 }
 
 .portrait img {
-    width: 52%;
-    margin-left: 691px;
+    width: 50%;
+    margin-left: 705px;
     margin-top: -140px;
+    transition: all 0.5s ease;
+    border-radius: 5px;
 }
+
+{/**}.portrait:hover img{
+    transform:  scale(0.5);
+}*/}
 
 .portrait-gif {
     position: absolute;
+    z-index: 2;
 }
 

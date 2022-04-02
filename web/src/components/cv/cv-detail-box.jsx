@@ -1,15 +1,15 @@
 import './cv-detail-box.css'
 
-function CvDetailBox({ title, startDate, endDate, enterprise, roleDescription, id }) {
+function CvDetailBox({ current, title, startDate, endDate, enterprise, roleDescription, id }) {
     return (
         
-        <div class="card cv-detail-box">
+        <div class={`card cv-detail-box${current ? ' current' : ''}`}>
             <div class="card-body m-2" >
                 <div className='d-flex align-items-center'>
                     <img src={enterprise.logo} alt={enterprise.name}></img>
                     <h5 class="card-title ms-4 mb-0">{title}</h5>
                 </div>
-                <p class="card-text text-muted text-end">{startDate}-{endDate || 'Present'}</p>
+                <span class="badge rounded-pill bg-light text-dark">{startDate} - {endDate || 'Present'}</span>
                 <div class="accordion accordion-flush" id={`accordionFlushCv${id}`}>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id={`flush-heading${id}`}>
