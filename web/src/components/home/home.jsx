@@ -17,13 +17,11 @@ function Home() {
                     <img src={podcastbackground} alt='micro-emoji' />
                 </div>
             </div>
-            <div className='second-row d-flex-start'>
+            <div className='second-row d-flex-end'>
                 <div className='milestones'>
-                    <ul>
-                        <li>Chocolate</li>
-                    </ul>
+                   El mundo es de los valientes
                 </div>
-
+                <br/>
 
                 <div className='portrait'>
                     <img className='portrait-gif' src='https://media.giphy.com/media/5xaOcLJUZMX9cKtW6ha/giphy.gif' alt='hi' />
