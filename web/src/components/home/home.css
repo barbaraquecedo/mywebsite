@@ -3,7 +3,7 @@ h1 {
     font-family: 'Bungee Inline', cursive !important;
     font-size: 60px;
     margin-top: 48px;
-    margin-left: 68px !important;
+    margin-left: 170px !important;
 }
 
 h2 {
@@ -13,44 +13,72 @@ h2 {
 
 .name-module {
     width: 729px;
-    height: 416px;
-    border: solid 3px #071030;
-    border-top: solid 2px #071030;
+    height: 250px;
     background: white;
+    margin: 8px;
     border-radius: 5px;
-    margin: 10px;
+    
+}
+
+.name-module:hover {
+   background-color: rgba(128, 128, 128, 0.096);
 }
 
 .podcast-module {
-    border: solid 3px #071030;
-    border-top: solid 2px #071030;
-    border-radius: 5px;
-    margin: 10px;
+    margin: 8px;
+    margin-bottom: -30px;
     background: white;
     width: 789px;
     height: 316px;
+    border-radius: 5px;
 }
 
-.podcast-module img {
-    width: 15%;
-    margin-left: 272px;
-    margin-top: 70px;
+.podcast-module h2{
+   position: absolute;
+   z-index: 3;
+   color: black;
+   margin-left: 20px;
+   margin-top: 80px;
+   font-size: 36px;
+   font-weight: 900 !important;
+  background: white;
+  border-radius: 5px;
+  padding: 3px;
 }
+
+
+.podcast-module img {
+    width: 100%;
+    position: relative;
+    height: 316px;
+    border-radius: 5px;
+
+}
+
+.btn-podcast {
+    font-family: 'Bungee Inline', cursive !important;
+    color: #FFE5A4;
+    margin-left: 80px;
+    margin-top: 200px;
+    border: 1px solid #ffcb86;
+    position: absolute;
+    z-index: 3;
+}
+
 
 .portrait img {
     width: 50%;
     margin-left: 705px;
     margin-top: -140px;
-    transition: all 0.5s ease;
     border-radius: 5px;
+    margin-top: 1px;
 }
 
-{/**}.portrait:hover img{
-    transform:  scale(0.5);
-}*/}
+.portrait:hover img{
+    background-color: rgba(128, 128, 128, 0.096);
+}
 
 .portrait-gif {
     position: absolute;
     z-index: 2;
 }
-
